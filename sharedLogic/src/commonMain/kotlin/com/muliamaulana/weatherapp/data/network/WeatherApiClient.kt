@@ -1,6 +1,6 @@
-package com.muliamaulana.weatherapp.network
+package com.muliamaulana.weatherapp.data.network
 
-import com.muliamaulana.weatherapp.network.model.ForecastResponse
+import com.muliamaulana.weatherapp.data.dto.ForecastResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.plugins.ClientRequestException
